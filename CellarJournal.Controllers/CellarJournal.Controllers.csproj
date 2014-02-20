@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9DA45E59-F6E3-4F7F-8F2B-9BD4E29AAFCE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CellarJournal.Controllers</RootNamespace>
+    <AssemblyName>CellarJournal.Controllers</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Interfaces\IAddDescriptionFrm.cs" />
+    <Compile Include="Interfaces\IAddGroupForm.cs" />
+    <Compile Include="Interfaces\IAddNewBarrelFrm.cs" />
+    <Compile Include="Interfaces\IAddNewWineFrm.cs" />
+    <Compile Include="Interfaces\IAddNewWoodenBarrelFrm.cs" />
+    <Compile Include="Interfaces\IAddNewYearFrm.cs" />
+    <Compile Include="Interfaces\IAwardForm.cs" />
+    <Compile Include="Interfaces\IBaseInterface.cs" />
+    <Compile Include="Interfaces\IChangeBarrelsFrm.cs" />
+    <Compile Include="Interfaces\IJournalForm.cs" />
+    <Compile Include="Interfaces\IListEmptyContainers.cs" />
+    <Compile Include="Interfaces\IMainForm.cs" />
+    <Compile Include="Interfaces\ISearchWineFrm.cs" />
+    <Compile Include="MainController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CellarJournal.Model\CellarJournal.Model.csproj">
+      <Project>{0ee03116-990e-4d4b-84dc-406ad2ef0bad}</Project>
+      <Name>CellarJournal.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CellarJournal.Utility\CellarJournal.Utility.csproj">
+      <Project>{fa95738e-ac0e-4a18-b0ac-e820871e0dc1}</Project>
+      <Name>CellarJournal.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

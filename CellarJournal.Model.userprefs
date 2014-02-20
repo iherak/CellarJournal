@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CellarJournal.Model/Barrel.cs">
+    <Files>
+      <File FileName="CellarJournal.Model/Barrel.cs" Line="32" Column="1" />
+      <File FileName="CellarJournal.Model/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="CellarJournal.Model/Wine.cs" Line="11" Column="14" />
+      <File FileName="CellarJournal.Model/Repositories/Podroom.cs" Line="1" Column="1" />
+      <File FileName="CellarJournal.Model/ActivityHistory.cs" Line="1" Column="1" />
+      <File FileName="CellarJournal.Model/PrizeHistory.cs" Line="8" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

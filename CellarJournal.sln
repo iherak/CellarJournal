@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CellarJournal.Model", "CellarJournal.Model\CellarJournal.Model.csproj", "{0EE03116-990E-4D4B-84DC-406AD2EF0BAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CellarJournal.Test", "CellarJournal.Test\CellarJournal.Test.csproj", "{2978C4F6-60D5-4624-9633-2627E6B7585C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F8B3F053-1BB7-41BB-8974-5C8E02885AC2}"
+	ProjectSection(SolutionItems) = preProject
+		CellarJournal.vsmdi = CellarJournal.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CellarJournal.Utility", "CellarJournal.Utility\CellarJournal.Utility.csproj", "{FA95738E-AC0E-4A18-B0AC-E820871E0DC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CellarJournal.View", "CellarJournal.App\CellarJournal.View.csproj", "{6394F6F8-38F2-43CC-9F16-E9A5404BE43E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CellarJournal.Controllers", "CellarJournal.Controllers\CellarJournal.Controllers.csproj", "{9DA45E59-F6E3-4F7F-8F2B-9BD4E29AAFCE}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = CellarJournal.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EE03116-990E-4D4B-84DC-406AD2EF0BAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EE03116-990E-4D4B-84DC-406AD2EF0BAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EE03116-990E-4D4B-84DC-406AD2EF0BAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EE03116-990E-4D4B-84DC-406AD2EF0BAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2978C4F6-60D5-4624-9633-2627E6B7585C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2978C4F6-60D5-4624-9633-2627E6B7585C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2978C4F6-60D5-4624-9633-2627E6B7585C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2978C4F6-60D5-4624-9633-2627E6B7585C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA95738E-AC0E-4A18-B0AC-E820871E0DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA95738E-AC0E-4A18-B0AC-E820871E0DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA95738E-AC0E-4A18-B0AC-E820871E0DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA95738E-AC0E-4A18-B0AC-E820871E0DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6394F6F8-38F2-43CC-9F16-E9A5404BE43E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6394F6F8-38F2-43CC-9F16-E9A5404BE43E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6394F6F8-38F2-43CC-9F16-E9A5404BE43E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6394F6F8-38F2-43CC-9F16-E9A5404BE43E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DA45E59-F6E3-4F7F-8F2B-9BD4E29AAFCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DA45E59-F6E3-4F7F-8F2B-9BD4E29AAFCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DA45E59-F6E3-4F7F-8F2B-9BD4E29AAFCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DA45E59-F6E3-4F7F-8F2B-9BD4E29AAFCE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = CellarJournal.Model\CellarJournal.Model.csproj
+	EndGlobalSection
+EndGlobal

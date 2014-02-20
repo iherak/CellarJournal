@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6394F6F8-38F2-43CC-9F16-E9A5404BE43E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CellarJournal.App</RootNamespace>
+    <AssemblyName>CellarJournal.App</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddDescriptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDescriptionForm.Designer.cs">
+      <DependentUpon>AddDescriptionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddGroupForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddGroupForm.Designer.cs">
+      <DependentUpon>AddGroupForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddInoxBarrelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddInoxBarrelForm.Designer.cs">
+      <DependentUpon>AddInoxBarrelForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddWineForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddWineForm.Designer.cs">
+      <DependentUpon>AddWineForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddWoodenBarrelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddWoodenBarrelForm.Designer.cs">
+      <DependentUpon>AddWoodenBarrelForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddYearForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddYearForm.Designer.cs">
+      <DependentUpon>AddYearForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AwardsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AwardsForm.Designer.cs">
+      <DependentUpon>AwardsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeBarrelsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JournalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JournalForm.Designer.cs">
+      <DependentUpon>JournalForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindowForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainWindowForm.Designer.cs">
+      <DependentUpon>MainWindowForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchWineForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchWineForm.Designer.cs">
+      <DependentUpon>SearchWineForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShowListEmptyCont.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShowListEmptyCont.Designer.cs">
+      <DependentUpon>ShowListEmptyCont.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddDescriptionForm.resx">
+      <DependentUpon>AddDescriptionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddGroupForm.resx">
+      <DependentUpon>AddGroupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddInoxBarrelForm.resx">
+      <DependentUpon>AddInoxBarrelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddWineForm.resx">
+      <DependentUpon>AddWineForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddWoodenBarrelForm.resx">
+      <DependentUpon>AddWoodenBarrelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddYearForm.resx">
+      <DependentUpon>AddYearForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AwardsForm.resx">
+      <DependentUpon>AwardsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeBarrelsForm.resx">
+      <DependentUpon>ChangeBarrelsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JournalForm.resx">
+      <DependentUpon>JournalForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainWindowForm.resx">
+      <DependentUpon>MainWindowForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SearchWineForm.resx">
+      <DependentUpon>SearchWineForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShowListEmptyCont.resx">
+      <DependentUpon>ShowListEmptyCont.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CellarJournal.Controllers\CellarJournal.Controllers.csproj">
+      <Project>{9da45e59-f6e3-4f7f-8f2b-9bd4e29aafce}</Project>
+      <Name>CellarJournal.Controllers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CellarJournal.Model\CellarJournal.Model.csproj">
+      <Project>{0EE03116-990E-4D4B-84DC-406AD2EF0BAD}</Project>
+      <Name>CellarJournal.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CellarJournal.Utility\CellarJournal.Utility.csproj">
+      <Project>{FA95738E-AC0E-4A18-B0AC-E820871E0DC1}</Project>
+      <Name>CellarJournal.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

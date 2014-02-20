@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CellarJournal.Model.Barrel">
+    <Position X="2.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAQAAAAAAAAAQAAAAAAAAAAAIAAACAAAA=</HashCode>
+      <FileName>Containers\Barrel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.Container">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAgAAAAAAECAAAAAAAAAAAAAAAIAABAgA=</HashCode>
+      <FileName>Containers\Container.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_containingWine" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CellarJournal.Model.InoxBarrel">
+    <Position X="0.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Containers\InoxBarrel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.WoodenBarrel">
+    <Position X="4.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAGACAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Containers\WoodenBarrel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.ActivityHistory">
+    <Position X="9.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAgAAgAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Wines\ActivityHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.Award">
+    <Position X="11.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAABAIAAAAAAAiAAAAFACAAAAAAAAA=</HashCode>
+      <FileName>Wines\Award.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_medal" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CellarJournal.Model.Wine">
+    <Position X="7.25" Y="5.5" Width="1.5" />
+    <AssociationLine Name="_activities" Type="CellarJournal.Model.ActivityHistory" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.75" Y="9.5" />
+        <Point X="9" Y="9.5" />
+        <Point X="9" Y="12.412" />
+        <Point X="9.25" Y="12.412" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="_prizeHistory" Type="CellarJournal.Model.Award" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="8.75" Y="7.762" />
+        <Point X="11.25" Y="7.735" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAANAAABAAgAARkgJghCAYAAAAAAAAAIRAAAgAAAAA=</HashCode>
+      <FileName>Wines\Wine.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_type" />
+      <Field Name="_activities" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="_prizeHistory" />
+      <Field Name="_containerHistory" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="CellarJournal.Model.Factories.BarrelFactory">
+    <Position X="11.5" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Factories\BarrelFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.Factories.WineFactory">
+    <Position X="9.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Factories\WineFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.Repositories.ContainerRepository">
+    <Position X="2.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAEAAgAYAAAAQAAAAABAQAQAAAAAAABAA=</HashCode>
+      <FileName>Repositories\ContainerRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_containers" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="CellarJournal.Model.Repositories.GroupRepostitory">
+    <Position X="10.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAIAAAAAgAAQECAAAAABAAAA=</HashCode>
+      <FileName>Repositories\GroupRepostitory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.Repositories.WineRepository">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAASEhAAAAAIDAQAAAAAAAAQCCAAAAAAAAgI=</HashCode>
+      <FileName>Repositories\WineRepository.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Field Name="_wines" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Enum Name="CellarJournal.Model.MedalTypes" Collapsed="true">
+    <Position X="11.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAABAAAAAAAA=</HashCode>
+      <FileName>Wines\MedalTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CellarJournal.Model.WineTypes">
+    <Position X="4.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAEAAAAAAAAAEQAAAAAAAAAAAAQAACABAAAABAQ=</HashCode>
+      <FileName>Wines\WineTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

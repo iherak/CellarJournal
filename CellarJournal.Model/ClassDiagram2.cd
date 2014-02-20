@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CellarJournal.Model.CellarJournalException" Collapsed="true">
+    <Position X="12.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CellarJournalException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.WineDoesntExist" Collapsed="true">
+    <Position X="3.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CellarJournalException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.WineWithoutContainerException" Collapsed="true">
+    <Position X="8.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CellarJournalException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.ContainerDoesntExist" Collapsed="true">
+    <Position X="12.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CellarJournalException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.WrongWineType" Collapsed="true">
+    <Position X="17.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CellarJournalException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.ContainerAlreadyExists" Collapsed="true">
+    <Position X="21.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CellarJournalException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.WineAlreadyExists" Collapsed="true">
+    <Position X="1.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CellarJournalException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.VolumeError" Collapsed="true">
+    <Position X="6" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CellarJournalException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.NoPrizeException" Collapsed="true">
+    <Position X="10.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CellarJournalException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.YearError" Collapsed="true">
+    <Position X="15" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CellarJournalException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.CreateBarrelException" Collapsed="true">
+    <Position X="19.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CellarJournalException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.NoWineTypeSelectedException" Collapsed="true">
+    <Position X="24" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CellarJournalException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.Barrel" Collapsed="true">
+    <Position X="1.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAQAAAAAAAAAQAAAAAAAAAAAIAAACAAAA=</HashCode>
+      <FileName>Containers\Barrel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.Container" Collapsed="true">
+    <Position X="1.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAgAAAAAAECAAAAAAAAAAAAAAAIAABAgA=</HashCode>
+      <FileName>Containers\Container.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.InoxBarrel" Collapsed="true">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Containers\InoxBarrel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.WoodenBarrel" Collapsed="true">
+    <Position X="2.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAGACAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Containers\WoodenBarrel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.ActivityHistory" Collapsed="true">
+    <Position X="26.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAgAAgAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Wines\ActivityHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.Award" Collapsed="true">
+    <Position X="28.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAABAIAAAAAAAiAAAAFACAAAAAAAAA=</HashCode>
+      <FileName>Wines\Award.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.Wine" Collapsed="true">
+    <Position X="30" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAANAAABAAgAARkgJghCAYAAAAAAAAAIRAAAgAAAAA=</HashCode>
+      <FileName>Wines\Wine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.Factories.BarrelFactory" Collapsed="true">
+    <Position X="30" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Factories\BarrelFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.Factories.WineFactory" Collapsed="true">
+    <Position X="26.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Factories\WineFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.Repositories.ContainerRepository" Collapsed="true">
+    <Position X="26.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAEAAgAYAAAAQAAAAABAQAQAAAAAAABAA=</HashCode>
+      <FileName>Repositories\ContainerRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.Repositories.GroupRepostitory" Collapsed="true">
+    <Position X="28.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAAAAAAIAAAAAgAAQECAAAAABAAAA=</HashCode>
+      <FileName>Repositories\GroupRepostitory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CellarJournal.Model.Repositories.WineRepository" Collapsed="true">
+    <Position X="28.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAASEhAAAAAIDAQAAAAAAAAQCCAAAAAAAAgI=</HashCode>
+      <FileName>Repositories\WineRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="CellarJournal.Model.MedalTypes" Collapsed="true">
+    <Position X="13.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAQAAAAAAAAAAAAABAABAAAAAAAA=</HashCode>
+      <FileName>Wines\MedalTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CellarJournal.Model.WineTypes" Collapsed="true">
+    <Position X="28.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAEAAAAAAAAAEQAAAAAAAAAAAAQAACABAAAABAQ=</HashCode>
+      <FileName>Wines\WineTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
